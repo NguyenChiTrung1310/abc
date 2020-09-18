@@ -1,0 +1,26 @@
+// @import '../../styles/styles';
+@import '../../styles/variables';
+
+.login-form {
+    max-width: 400px;
+    margin-top: 100px;
+
+    .inputField {
+        border-bottom: 1px solid $gray;
+    }
+
+    .btnLogin Button {
+        background-color: $blue;
+        font-weight: bold;
+        color: $white;
+    }
+
+    .login-form-forgot {
+        color: $blue;
+        float: right;
+    }
+}
+
+.signupLink {
+    color: $blue;
+}
